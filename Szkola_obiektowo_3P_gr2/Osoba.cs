@@ -8,7 +8,7 @@ namespace Szkola_obiektowo_3P_gr2
 {
     public class Osoba
     {
-        private string imie;
+        protected string imie;
         private int wiek;
         //imie i wiek pola klasy
         //konstruktor

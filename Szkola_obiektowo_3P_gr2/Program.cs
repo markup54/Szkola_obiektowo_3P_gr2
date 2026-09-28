@@ -14,8 +14,10 @@ Osoba osoba2 = new Osoba("Brunchilda",80);
 Console.WriteLine(osoba2); // wywołuje się metoda ToString()
 
 Console.WriteLine("liczba uczniów " + Uczen.liczbaUczniow);
+//odwołanie do pola statycznego liczba uczniów
+//nazwa_klasy.nazwa pola
 Uczen uczen1 = new Uczen();
-Console.WriteLine(uczen1);//wywołuje się ToString z klasy Osoba
+Console.WriteLine(uczen1);//wywołuje się ToString z klasy Uczen
 Console.WriteLine("liczba uczniów " + Uczen.liczbaUczniow);
 Uczen uczen2 = new Uczen(7);
 Console.WriteLine(uczen2);

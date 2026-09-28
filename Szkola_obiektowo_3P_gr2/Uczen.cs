@@ -37,7 +37,7 @@ namespace Szkola_obiektowo_3P_gr2
 
         public override string? ToString()
         {
-            return base.ToString() + "nr ucznia: "+nuUcznia;
+            return "imię: " +imie+ " nr ucznia: "+nuUcznia;
         }
     }
 }
