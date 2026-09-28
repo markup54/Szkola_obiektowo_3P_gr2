@@ -25,3 +25,5 @@ Console.WriteLine("liczba uczniów " + Uczen.liczbaUczniow);
 Uczen uczen3 = new Uczen("Jaś",13);
 Console.WriteLine(uczen3);
 Console.WriteLine("liczba uczniów " + Uczen.liczbaUczniow);
+Nauczyciel nauczyciel = new Nauczyciel("Anna",60,"wf");
+Console.WriteLine(nauczyciel);
