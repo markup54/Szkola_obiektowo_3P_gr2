@@ -12,3 +12,14 @@ Osoba osoba2 = new Osoba("Brunchilda",80);
 //Console.WriteLine("imię osoba2");
 //Console.WriteLine(osoba2.imie);
 Console.WriteLine(osoba2); // wywołuje się metoda ToString()
+
+Console.WriteLine("liczba uczniów " + Uczen.liczbaUczniow);
+Uczen uczen1 = new Uczen();
+Console.WriteLine(uczen1);//wywołuje się ToString z klasy Osoba
+Console.WriteLine("liczba uczniów " + Uczen.liczbaUczniow);
+Uczen uczen2 = new Uczen(7);
+Console.WriteLine(uczen2);
+Console.WriteLine("liczba uczniów " + Uczen.liczbaUczniow);
+Uczen uczen3 = new Uczen("Jaś",13);
+Console.WriteLine(uczen3);
+Console.WriteLine("liczba uczniów " + Uczen.liczbaUczniow);
