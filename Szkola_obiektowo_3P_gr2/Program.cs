@@ -3,7 +3,8 @@ using Szkola_obiektowo_3P_gr2;
 
 Console.WriteLine("Hello, World!");
 
-Osoba osoba = new Osoba(); // tworzymy nowy obiekt - wywołujemy konstruktor
+/*Osoba osoba = new Osoba(); // tworzymy nowy obiekt - wywołujemy konstruktor
+jeżeli klasa Osoba abstrakcyjna nie mogę utworzyć obiektu tej klasy
 //osoba.imie = "Genowefa"; // publiczne więc można zmieniac
 
 //Console.WriteLine("imię osoba");
@@ -12,7 +13,7 @@ Osoba osoba2 = new Osoba("Brunchilda",80);
 //Console.WriteLine("imię osoba2");
 //Console.WriteLine(osoba2.imie);
 Console.WriteLine(osoba2); // wywołuje się metoda ToString()
-
+*/
 Console.WriteLine("liczba uczniów " + Uczen.liczbaUczniow);
 //odwołanie do pola statycznego liczba uczniów
 //nazwa_klasy.nazwa pola

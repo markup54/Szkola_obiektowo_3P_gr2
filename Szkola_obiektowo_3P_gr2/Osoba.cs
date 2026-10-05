@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace Szkola_obiektowo_3P_gr2
 {
-    public class Osoba
+    public abstract class Osoba
     {
+        //klasa abstrakcyjna nie pozwala
+        //na tworzenie obiektu tej klasy
         protected string imie;
         private int wiek;
         //imie i wiek pola klasy
